@@ -88,9 +88,13 @@ visibility: hidden;
     background: black;
     left: 10vw;
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
     font-size: 20px;
     text-align: center;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
   }
 
   .e1 {
