@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "OrticaL";
+  src:url("./OrticaLinear-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "OrticaA";
+  src:url("./OrticaAngular-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style:normal;
+}
+
+html, body {
+  font-family: "OrticaL";
+  background-color: black;
+  color: white;
+  font-size: 12pt;
+  text-align: center;
+  overflow: hidden;
+}
+a {
+  color: white;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: black;
+  transition: color 0.2s;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+}
+
+a:visited {
+  
+}
+
+.page {
+  background: black;
+  left: 0px;
+  width: 50vw;
+  height: 60vh;
+  left: 10vw;
+}
+
+.hl {
+  font-family: "OrticaA";
+  color: white;
+  font-size: 40pt;
+  padding: 0px;
+  margin:0px;
+
+}
+
+.date {
+  font-family: "OrticaA";
+  color: white;
+  font-size: 24pt;
+
+}
+
+.e1 {
+visibility: hidden;
+}
+
+.e2 {
+  visibility: hidden;
+}
+
+.e3 {
+  visibility: hidden;
+}
+
+
+@media (max-width: 600px) {
+  .page {
+    background: black;
+    left: 10vw;
+    width: 80vw;
+    height: 60vh;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .e1 {
+    width: 30vw;
+    visibility: visible;
+  }
+
+  .e2 {
+    width: 100vw;
+    height: 1.5vh;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    visibility: visible;
+  }
+
+  .e3 {
+    width: 30vw;
+    visibility: visible;
+  }
+  }
