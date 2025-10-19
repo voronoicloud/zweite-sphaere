@@ -90,6 +90,7 @@ visibility: hidden;
     width: 100vw;
     height: 50vh;
     font-size: 20px;
+    overflow: visible;
     text-align: center;
     box-sizing: border-box;
     overflow-wrap: break-word;
